@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## The second function finds the inverse of the special matrix. If
-## the inverse has already been found, it gets the mean from the
+## the inverse has already been found, it gets the inverse from the
 ## cahche and skips the calculation. 
 
 cacheSolve <- function(x, ...) {
